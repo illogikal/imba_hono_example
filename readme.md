@@ -2,7 +2,6 @@
 
 <p align="center">
   <a href="https://bun.sh"><img src="https://bun.sh/logo@2x.png" alt="Logo"></a>
-  <a href="https://github.com/Jarred-Sumner/bun">https://github.com/Jarred-Sumner/bun</a>
 </p>
 
 <p align="center">
