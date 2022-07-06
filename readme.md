@@ -1,3 +1,15 @@
+
+
+<p align="center">
+  <a href="https://bun.sh"><img src="https://bun.sh/logo@2x.png" alt="Logo"></a>
+  <a href="https://github.com/Jarred-Sumner/bun">https://github.com/Jarred-Sumner/bun</a>
+</p>
+
+<p align="center">
+<a href="https://imba.io" target="_blank">
+<img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a>
+</p>
+
 # for dev
 
 ```
@@ -15,6 +27,7 @@
 # to run
 
 ```
+    curl -fsSL https://bun.sh/install | bash
     bun install
     npm install
     bun nodemon

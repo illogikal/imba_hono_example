@@ -4,7 +4,7 @@
         "build": "imba build server.imba -o ./;",
         "del_build": "rm ./server.js server.js.manifest server.loader.js",
         "build_bun": "imba build server.bun.imba -o ./;",
-        "start": "bun run build; bun run del_build; bun run build_bun; NODE_ENV=development bun run server.bun.js"
+        "start": "bun run build; bun run del_build; bun run build_bun; NODE_ENV=development bun run server.bun.js",
     },
     "dependencies": {
         "express": "^4.18.1",
