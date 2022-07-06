@@ -9,6 +9,14 @@
 <img width="300" src="https://github.com/imba/brand/blob/master/imba-web-logo.png"></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/honojs/hono">
+    <img src="https://raw.githubusercontent.com/honojs/hono/master/docs/images/hono-title.png" width="500" height="auto" alt="Hono"/>
+  </a>
+</p>
+
+## Imba, Bun and Hono together
+
 # for dev
 
 ```
