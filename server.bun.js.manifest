@@ -1,0 +1,84 @@
+{"$$0$$":{
+  "bytes": 185882,
+  "imports": [],
+  "_": "input",
+  "path": "node_modules/mime-db/db.json"
+},
+"$$1$$":{
+  "bytes": 189,
+  "imports": [
+    "$$0$$"
+  ],
+  "_": "input",
+  "path": "node_modules/mime-db/index.js"
+},
+"$$2$$":{
+  "bytes": 3663,
+  "imports": [
+    "$$1$$"
+  ],
+  "_": "input",
+  "path": "node_modules/mime-types/index.js"
+},
+"$$3$$":{
+  "bytes": 6846,
+  "imports": [
+    "$$2$$"
+  ],
+  "_": "input",
+  "path": "server.bun.imba",
+  "js": "$$4$$"
+},
+"$$4$$":{
+  "imports": [],
+  "exports": [],
+  "entryPoint": "server.bun.imba",
+  "inputs": [
+    [
+      "$$0$$",
+      136687
+    ],
+    [
+      "$$1$$",
+      32
+    ],
+    [
+      "$$2$$",
+      1211
+    ],
+    [
+      "$$3$$",
+      1083
+    ]
+  ],
+  "bytes": 150658,
+  "source": "$$3$$",
+  "_": "output",
+  "path": "server.bun.js",
+  "type": "js",
+  "dependencies": [],
+  "hash": "R3R4NXAS",
+  "originalPath": "server.bun.__dist__.js"
+},
+
+  "inputs": {
+    "node_modules/mime-db/db.json": "$$0$$",
+    "node_modules/mime-db/index.js": "$$1$$",
+    "node_modules/mime-types/index.js": "$$2$$",
+    "server.bun.imba": "$$3$$"
+  },
+  "outputs": {
+    "server.bun.js": "$$4$$"
+  },
+  "urls": {},
+  "mappings": {},
+  "hash": "MXZGQDGP",
+  "srcdir": ".",
+  "outdir": ".",
+  "path": "server.bun.js.manifest",
+  "main": "$$4$$",
+  "assets": [
+    "$$4$$"
+  ],
+  "css": null
+}

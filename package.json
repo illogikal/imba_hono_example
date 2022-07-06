@@ -1,0 +1,34 @@
+{
+    "name": "hello-imba",
+    "scripts": {
+        "build": "imba build server.imba -o ./;",
+        "del_build": "rm ./server.js server.js.manifest server.loader.js",
+        "build_bun": "imba build server.bun.imba -o ./;",
+        "start": "bun run build; bun run del_build; bun run build_bun; NODE_ENV=development bun run server.bun.js"
+    },
+    "dependencies": {
+        "express": "^4.18.1",
+        "fs-extra": "^10.1.0",
+        "hono": "^1.6.2",
+        "imba": "^2.0.0-alpha.208",
+        "nodemon": "^2.0.19"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "node_modules/*",
+            "public/*",
+            "server.bun.js",
+            "server.bun.loader.js"
+        ],
+        "delay": 100,
+        "execMap": {
+            "js": "bun run"
+        },
+        "ext": "*.imba, *.json, *.js, *.mjs, *.html"
+    },
+    "description": "",
+    "version": "1.0.0",
+    "homepage": "https://github.com//hello-imba",
+    "author": "Author Name (https://github.com/)",
+    "license": "ISC"
+}
